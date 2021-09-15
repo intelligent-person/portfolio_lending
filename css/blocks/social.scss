@@ -1,0 +1,28 @@
+
+
+.social {
+	display: flex;
+	margin-bottom: 42px;
+
+	@media screen and (max-width: 767px) {
+		margin-bottom: 10px;
+	}
+}
+
+.social__link {
+	margin-right: 10px;
+	text-decoration: none;
+	transition: transform .2s linear;
+
+	&:hover {
+		transform: translateY(-5px);
+	}
+}
+
+.icon__soc {
+	width: 100%;
+
+	@media screen and (max-width: 767px) {
+		width: 25px;
+	}
+}

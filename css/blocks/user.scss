@@ -1,0 +1,42 @@
+// main: ../style.scss
+
+.user {
+	display: flex;
+}
+
+.user__avatar {
+	img {
+		width: 57px;
+		height: 57px;
+		border-radius: 50%;
+		@media screen and (max-width: 424px) {
+		width: 50px;
+		height: 50px;
+		}
+	}		
+}
+
+.user__content {
+	padding-left: 9px;
+}
+
+.user__name {
+	font-size: 1.6rem;
+	color: $black;
+	font-weight: 700;
+	line-height: 1.8rem;
+	margin-bottom: 5px;
+
+	@media screen and (max-width: 424px) {
+		font-size: 1.4rem;
+		line-height: 1.5rem;
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+}
+
+.user__prof {
+	font-size: 1.2rem;
+	color: fade(#2B2A2C, 70%);
+
+}

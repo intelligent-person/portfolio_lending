@@ -1,0 +1,107 @@
+
+.intro {
+	@media screen and (max-width: 767px) {
+		margin-top: 100px;
+	}
+}
+
+.intro__inner {
+	display: flex;
+	background: url("../images/symbols.png") right bottom no-repeat;
+	padding-top: 100px;		
+	padding-bottom: 120px;
+	border-bottom: 1px solid $gray;
+
+	position: relative;
+
+	@media screen and (max-width: 1023px) {
+		padding-top: 3rem;
+		padding-bottom: 4rem;
+		background-size: 400px;
+	}
+
+	@media screen and (max-width: 767px) {
+		padding-top: 6rem;
+		padding-bottom: 1.5rem;
+		background-size: 210px;
+	}
+
+	@media screen and (max-width: 424px) {
+		padding-top: 3rem;
+		padding-bottom: 2rem;
+	}
+
+	@media screen and (max-width: 424px) {
+			background-size: 170px;
+		}
+
+}
+
+.intro__content {
+	width: 50%;
+}
+
+.intro__subtitle {
+	font-size: 3.2rem;
+	font-weight: 200;
+	color: $black;
+
+	@media screen and (max-width: 1023px) {
+		font-size: 2.2rem;
+	}
+
+	@media screen and (max-width: 767px) {
+		font-size: 1.5rem;
+	}
+}
+
+.intro__title {
+	font-size: 45px;
+	font-weight: 700;
+	color: $black;
+	margin-bottom: 5px;
+
+	@media screen and (max-width: 1023px) {
+		font-size: 3.2rem;
+	}
+
+	@media screen and (max-width: 767px) {
+		font-size: 2.2rem;
+		margin-bottom: 2px;
+	}
+}
+
+.intro__text {
+	font-size: 18px;
+	margin-bottom: 25px;
+	font-weight: 400;
+	color: fade($black, 70%);
+
+	@media screen and (max-width: 1023px) {
+		font-size: 1.2rem;
+	}
+
+	@media screen and (max-width: 767px) {
+		font-size: 1rem;
+		margin-bottom: 10px;
+	}
+}
+
+.intro__photo {
+	width: 430px;
+	position: absolute;
+	right: 20px;bottom: 0px;
+
+	@media screen and (max-width: 1023px) {
+		width: 300px;
+	}
+
+	@media screen and (max-width: 767px) {
+		width: 170px;
+		right: 10px;
+	}
+
+	@media screen and (max-width: 374px) {
+			width: 130px;
+		}
+}

@@ -1,0 +1,15 @@
+
+
+.soon {
+	font-size: 30px;
+	text-align: center;
+	padding: 10rem;
+
+	@media screen and (max-width: 767px) {
+		font-size: 20px;
+	}
+
+	@media screen and (max-width: 514px) {
+		font-size: 15px;
+	}
+}

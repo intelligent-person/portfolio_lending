@@ -1,0 +1,21 @@
+
+
+.bars {
+	display: none;
+	width: 30px;
+	height: 30px;
+
+	padding: 0;
+	border: 0;
+	background: none;
+
+	@media screen and (max-width: 767px) {
+		display: block;
+	}
+}
+
+.bars__icon {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

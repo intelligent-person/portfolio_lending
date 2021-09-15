@@ -1,0 +1,206 @@
+
+
+.modal__statistics {
+	width: 100%;
+	max-width: 768px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 7.45rem;
+
+	@media screen and (max-width: 767px) {
+			margin-bottom: 0;
+			flex-wrap: wrap;
+		}
+}
+
+.modal__statistic--left {
+	width: 100%;
+	text-align: right;
+
+	@media screen and (max-width: 767px) {
+			text-align: center;
+		}
+}
+
+.modal__statistic--right {
+	width: 100%;
+	text-align: left;
+
+	@media screen and (max-width: 767px) {
+			text-align: center;
+		}
+}
+
+.modal__resume__separ {
+	padding: 0 4.75rem;
+	@media screen and (max-width: 1023px) {
+		height: 665px;
+		padding: 0 1.5rem;
+	}
+
+	@media screen and (max-width: 767px) {
+			display: none;
+		}
+}
+
+.separ {
+	height: 94.8%;
+
+	@media screen and (max-width: 1023px) {
+		height: 680px;
+	}
+}
+
+.stat__title {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 3.8rem;
+
+	@media screen and (max-width: 1023px) {
+		margin-bottom: 2rem;
+	}
+}
+
+.resume__data {
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+.resume__title {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 20px 0 5px;
+
+	@media screen and (max-width: 1023px) {
+		margin: 1rem 0 5px;
+	}
+
+	&--right {
+		margin: 0 0 5px;
+	}
+
+
+}
+
+.resume__subtitle {
+	font-size: 14px;
+	font-style: italic;
+	margin-bottom: 1.5rem;
+
+	&--right {
+		margin-bottom: 3rem;
+
+		@media screen and (max-width: 767px) {
+			margin-bottom: 2rem;
+		}
+	}
+
+}
+
+.resume__text {
+	font-size: 12px;
+	font-weight: 300;
+	margin-bottom: 4.3rem;
+
+	@media screen and (max-width: 1023px) {
+		margin-bottom: 4.8rem;
+		&--ri {
+			margin-left: 0;
+			margin-bottom: 6rem;
+		}
+		margin-left: 51px;
+		width: 85%;
+		font-size: 11px;		
+	}
+
+	@media screen and (max-width: 767px) {
+		width: 100%;
+		padding: 0 25px;
+			margin-left: 0;
+			margin-bottom: 3rem;
+		}
+}
+
+.progress-bar {
+	@media screen and (max-width: 767px) {
+			width: 50%;
+		}
+}
+
+.resume__skills {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+	@media screen and (max-width: 1023px) {
+		padding: 0 6.5rem 0 0;
+	}
+
+	@media screen and (max-width: 767px) {
+			padding: 0;
+		}
+}
+
+
+.progress-bar__item {
+	width: 140px;
+	height: 6px;
+	background-color: #EFEFEF;
+	margin-bottom: 18px;
+
+	&--1 {
+		margin-top: 10px;
+	}
+}
+
+.progress-bar__progress {
+	height: 100%;
+
+	background-color: $gray;
+}
+
+.skills__name {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	margin-bottom: 3rem;
+
+	@media screen and (max-width: 767px) {
+			width: 50%;
+			text-align: center;
+		}
+}
+
+.awards__item {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.awards__data {
+	width: 100%;
+	max-width: 50px;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+.resume__hire {
+	width: 100%;
+	text-align: center; 
+	margin-top: -5rem;
+	margin-bottom: 6.68rem;
+
+	@media screen and (max-width: 1023px) {
+		margin-top: -11rem;
+	}
+
+	@media screen and (max-width: 767px) {
+		margin-top: 0;
+			margin-bottom: 2rem;
+		}
+}
+
